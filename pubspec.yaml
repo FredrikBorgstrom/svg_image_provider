@@ -3,7 +3,7 @@ description: "Creates an ImageProvider from an SVG asset."
 version: 0.0.1
 homepage: https://abcx3.com
 repository: https://github.com/FredrikBorgstrom/svg_image_provider
-topics: [svg, flutter, image_provider]
+topics: [svg, flutter, imageprovider]
 environment:
   sdk: ^3.6.0
   flutter: ">=1.17.0"

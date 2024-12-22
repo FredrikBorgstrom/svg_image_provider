@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226 226">
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect width="226" height="226" rx="12.681" ry="12.681" fill="gray" stroke-width="0"/>
+    <rect x="47.5" y="73.5" width="130" height="82" fill="none" stroke="#d2d2d1" stroke-miterlimit="10" stroke-width="7"/>
+    <polygon points="62 145.5 74.948 119.5 96.5 132.5 131 96.5 163.741 145.5 62 145.5" fill="#d2d2d1" stroke-width="0"/>
+    <circle cx="93.5" cy="100.5" r="11" fill="#d2d2d1" stroke-width="0"/>
+  </g>
+</svg>

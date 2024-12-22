@@ -11,17 +11,21 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A simple Dart package that provides an `ImageProvider` for Flutter that can load SVG images.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Load SVG images from assets
+- Scale SVG images to fit a given container size
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the package to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  svg_image_provider: ^0.1.0
+```
 
 ## Usage
 
@@ -29,11 +33,16 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+SvgImageProvider(
+            'assets/images/placeholder.svg',
+            scale: 1.0,
+            containerSize: Size(100, 100),
+)
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+My name is Fredrik Borgström, and if you have any suggestions or want to report a bug, you can reach
+me through my web site at [abcx3.com](https://abcx3.com), or you can submit an issue on the 
+[GitHub repository](https://github.com/FredrikBorgstrom/svg_image_provider).
+The package is open source and contributions are welcome.

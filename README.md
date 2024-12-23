@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-A simple Dart package that provides an `ImageProvider` for Flutter that can load SVG images.
+Creates an `ImageProvider` from an SVG asset with proper scaling of the underlying vector graphics.
 
 ## Features
 
